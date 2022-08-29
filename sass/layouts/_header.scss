@@ -2,6 +2,7 @@
 display: flex;
   align-items: center;
   justify-content: space-between; 
+ 
 }
 
 .header__underline {
@@ -10,7 +11,7 @@ display: flex;
 
 
 
-.header__left-part-of-header {
+.header__left {
   display: flex;
   align-items: center;
 }
@@ -29,13 +30,17 @@ display: flex;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  padding-bottom: 25px;
-  padding-top: 24px;
+ 
 
   & span{
 color:#2196f3 ;
 }
 
+}
+
+.logo{
+   padding-bottom: 25px;
+  padding-top: 24px;
 }
 
 

@@ -22,6 +22,14 @@
 
   color: #ffffff;
 }
+
+@mixin mobile {
+  @media screen and (min-width: 480px) {
+   
+ font-size: 144px;
+
 }
 
 
+}
+}
