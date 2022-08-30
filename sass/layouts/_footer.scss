@@ -106,7 +106,7 @@
 }
 
 
-.footer__icon-bg {
+.social__icon-bg {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,10 +129,21 @@
 }
 }
 
-.footer__icon {
+.social__icon {
   width: 20px;
   height: 20px;
   fill: #fff;
+}
+
+.social__icon{
+ width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.social__icon-bg:hover .social__icon,
+.social__icon-bg:focus .social__icon {
+  fill: white;
 }
 
 
