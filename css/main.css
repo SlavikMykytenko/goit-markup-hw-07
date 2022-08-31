@@ -82,21 +82,21 @@ body {
   align-items: center;
 }
 
-.header__logo {
+.header--logo {
+  padding-bottom: 25px;
+  padding-top: 24px;
+}
+.header--logo span {
+  color: #2196f3;
+}
+
+.logo {
   color: #000000;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-}
-.header__logo span {
-  color: #2196f3;
-}
-
-.logo {
-  padding-bottom: 25px;
-  padding-top: 24px;
 }
 
 .header__web-link {
@@ -386,19 +386,15 @@ a:focus .clients__logo {
   justify-content: end;
 }
 
-.footer__logo {
+.footer--logo {
   color: #2196f3;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
 }
+.footer--logo span {
+  color: #fff;
+}
+
 .footer__logo-margin {
   margin-bottom: 20px;
-}
-.footer__logo span {
-  color: #fff;
 }
 
 .footer__address {
